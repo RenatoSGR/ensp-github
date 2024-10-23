@@ -24,7 +24,7 @@ jobs:
       run: python script.py
 
     - name: Upload plot
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: plot
         path: plot.png
